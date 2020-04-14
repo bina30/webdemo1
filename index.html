@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+<title>template</title>
+<style>
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header, footer, section, nav {
+    width: 100%;
+    display: block;
+}
+.container {
+    width: 1150px;
+    margin: 0px auto;
+    display: block;
+    margin: 0px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+nav {
+    border-top: 5px solid #28ca8e;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo {
+    float: left;
+    height: 50px;
+    padding: 14px 15px;
+    width: 135px;
+}
+.menu {
+    float: left;
+    width: 800px;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #687385;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #28ca8e;
+    color: white;
+}
+.topnav a.active {
+    background-color: #28ca8e;
+    color: white;
+}
+.topnav .icon {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+max-width:100% ;position: relative;
+padding-top: 60px;
+    margin: auto;
+}
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+width: 100% ;text-align: center;
+    padding-left: 500px;
+    top:0px;
+    padding-top: 400px;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+@keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+.threebox {
+    padding: 100px 0px 200px 0px;
+}
+.threebox .one {
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    width: 32%;
+    padding: 95px 44px;
+    height: 340px;
+    float: left;
+    margin-right: 10px;
+}
+.one:nth-child(3) {
+    margin-right: 0px;
+}
+/* On smaller screens, decrease text size */
+.threebox span {
+    background: #3f51b5;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.fa-users {
+    float: left;
+    padding-right: 10px;
+background-color: #34c58c;;
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+    color: white;
+}
+
+.fa.fa-phone {
+    background: #34c58c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+#about {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+.lftcontent {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.lftcontent h2 {
+    padding-bottom: 20px;
+}
+.lftcontent p {
+    padding-bottom: 20px;
+}
+.rightcntnt {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: right;
+}
+.frmdiv{ height:350px; width: 350px; border-radius: 100%; background-color: #000000; display: block; position: relative; margin: 0px auto;}
+.frmdiv form {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 66px;
+}
+
+.frmdiv form h5{ color: #ffffff; font-size: 2em; padding-bottom: 20px;}
+.inpt { display: block;
+background: transparent;
+border: none;
+margin: 0px auto;
+color: white;
+    margin-bottom: 0px;
+border-bottom: 1px solid #fff;
+margin-bottom: 20px;
+width: 100%;}
+.sbmit{ background: white;  display: block;
+background: transparent;
+border: none;
+margin: 0px auto;
+
+    margin-bottom: 0px;
+
+margin-bottom: 20px;
+    background: white;
+    width: 62%;
+    padding: 15px;
+    border-radius: 100px;
+    color: black;
+}
+.whatsapp
+{    background: cadetblue;
+    padding: 10px;
+    border-radius: 40px;
+}
+.phone{ float: left; padding:5px 16px;
+text-decoration: none;
+
+color: #6a6c85;}
+.phone:hover{ background-color: #28ca8e; color: white;}
+
+.author{ padding:0px 0px 100px 0px; overflow: hidden;}
+.author h2 { text-align: center; padding-bottom: 20px; padding-top: 20px; color: #5e5e5e;}
+.author small {color: #5e5e5e;
+    font-size: 14px;
+    font-weight: normal;
+}
+#Teachers{  background-color: #f9f9f9;}
+.author{ background-color: #ffffff;  width: 100%;}
+.photos .social{ border-top: 1px solid #f4f4f4; margin-top: 20px;}
+.photos{width: 25%; padding-left: 10px; float: left; box-sizing: border-box; }
+.photos img{ width: 100%;}  
+.photos h3{padding: 10px 0px 10px 0px; color: #5e5e5e; text-align: center; }
+.photos {color: #5e5e5e; text-align: center;  padding-bottom: 20px ; }
+.social-icon{ list-style-type: none;   display: inline-flex; }
+.social-icon  a{ text-decoration: none;}
+.social-icon  li .fa{ padding: 4px;  color: #272322; text-decoration: none; margin-top: 10px;}
+.btn{ background: transparent; padding: 14px; border: 1px solid white; border-radius: 50px; text-decoration: none;}
+
+#Reviews {color: #5e5e5e;
+    font-size: 14px;
+    font-weight: normal;}
+#Reviews h2 { text-align: center; padding-bottom: 20px; padding-top: 20px; color: #5e5e5e;}
+
+
+.slider {
+        width: 100%;
+       
+    }
+
+    .slick-slide {
+      margin: 0px 20px;}
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+     
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+   
+    }
+    
+    
+
+    .slick-current {
+      opacity: 1;
+    }
+
+
+    #Courses {  display: block;}
+    #Courses h2{ text-align: center; display: block;}
+    .roundimg span { color: #343434; text-decoration: none; font-size: 13px; font-weight: bold;}
+     #Courses h2 ,h3 ,p ,a { color: #343434; text-decoration: none; font-size: 16px;}
+
+    .roundimg img{display: inline-block;
+              vertical-align: middle;height: 50px; width: 50px;
+              margin-bottom: 20px;
+              text-align: left;
+    
+border-radius: 100%; margin-right: 20px;}
+
+    .abutton { background-color: #98e4c8; border-radius: 10px; padding: 4px; text-align: center; color:white; float: right; width: 70px; margin-top: 10px;margin-right: 20px;
+
+}
+
+
+.courses-detail p{color: #343434; text-decoration: none; font-size: 16px; line-height: 22px;padding-right: 93px; }
+.roundimg2 img{display: inline-block;
+              vertical-align: middle;height: 50px; width: 50px;
+              margin-bottom: 20px;
+              text-align: left;
+    
+border-radius: 100%; margin-right: 20px;}
+
+.roundtxt {display: inline-block;
+              vertical-align: middle;
+              margin-bottom: 20px;
+              text-align: left;
+    
+ margin-right: 20px;}
+
+
+.abutton a{ color: #fff; text-decoration: none;}
+.imgtxt{ padding-top: 20px;}
+.slick-dots li button::before {
+   
+
+    font-family: 'slick';
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.populer{ padding: 30px 0px 50px 0px}
+.fa-star{ color: #3f51b5; padding-top: 20px; padding-right: 3px;}
+#Contact { padding: 100px 0px 100px 0px; background-color: #3f51b5; overflow: hidden;}
+
+.blueouter{ width: 100%;}
+.frmlft{ width: 50%; float: left;}
+.frmlft .formblue{ width:545px;}
+.frmlft .formblue input , textarea{ width: 100%; background: white; display: block; padding: 12px ; margin-bottom:12px ; border-radius: 10px; border: none; }
+.frmlft .formblue textarea{ padding-bottom: 60px;}
+.frmphoto{ float: right; width: 50%; text-align: right;}
+.frmlft .formblue .submit{ width: 172px;border-radius: 55px; color: #5b5b5b;}
+
+.frmlft .formblue .submit:hover {background:transparent; border: 1px solid white; color: white;}
+.frmlft .formblue h5{ color: #ffffff; font-size: 2em; padding-bottom: 10px;}
+.frmlft .formblue p{ color: #ffffff; font-size: 1em; padding-bottom: 20px;}
+
+.frmphoto img{height: 462px; display: block;}
+.headingblue{ padding: 25px 0px 25px 0px;}
+@media screen and (max-width: 1100px) {
+.container {
+    width: 100%;
+}
+.logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.menu {
+    float: none;
+    width: 100%;
+}
+.wrapper {
+    width: 100% !important;
+    text-align: center !important;
+}
+.pbtm {
+    padding-bottom: 20px;
+}
+.topnav a:not(:first-child) {
+    display: none;
+}
+.topnav a.icon {
+    float: right;
+    display: block;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    padding-left: 150px;
+    padding-top: 145px
+}
+.threebox {
+    text-align: center;
+    width: 100%
+}
+.threebox .one {
+    float: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    clear: both;
+    overflow: hidden;
+    width: 40%;
+}
+
+figure {
+    width: 373px;
+    margin: 0px auto;
+}
+	#about {
+    padding: 0px 20px;
+}
+.lftcontent {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.rightcntnt {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+figcaption {
+    width: 373px;
+    text-align: left;
+}
+.phone{ text-align: center;
+margin: 0px auto;
+width: 100%;}
+
+.author{ text-align: center; width: 100%;}
+
+.author .photos{ float: none;  width: 40%; display: inline-block; clear: both;   margin-bottom: 20px;
+    overflow: hidden;}
+
+.threebox {
+    padding: 20px ;
+}
+
+
+
+
+.frmlft{ width: 100%; float: none;}
+.frmlft .formblue{ width:100%;}
+
+.frmphoto{ float: none; width: 100%; text-align: center; padding-top: 40px;}
+.frmlft .formblue .submit{ width: 100%;}
+
+#Contact { padding:20px ;}
+
+.frmphoto img{height: auto; max-width: 100%; display: block;}}
+
+@media screen and (max-width: 1100px) {
+.topnav.responsive {
+    position: relative;
+}
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+.frmdiv{ margin: 0px auto;}
+
+}
+
+@media only screen and (max-width: 800px) {
+.threebox {
+    text-align: center;
+    width: 100%
+}
+.threebox .one {
+    float: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    clear: both;
+    overflow: hidden;
+    width: 90%;
+}
+#about {
+    padding: 0px 20px;
+}
+.lftcontent {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.rightcntnt {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+figcaption {
+    width: 373px;
+    text-align: left;
+}
+
+.author{ text-align: center; width: 100%;}
+.author .photos{ float: none;  width: 90%; display: inline-block; clear: both;   margin-bottom: 20px;
+    overflow: hidden;}
+
+}
+
+@media only screen and (max-width: 400px) {
+.text {
+    font-size: 11px;
+    padding-left: 50px;
+}
+}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="container">
+      <div class="logo">Known </div>
+      <div class="menu">
+        <div class="topnav"  id="myTopnav"> <a href="#home" class="active smoothScroll home">Home</a> 
+          <a href="#about" class="smoothScroll">About</a> 
+          <a href="#Teachers" class="smoothScroll">Our Teachers</a> 
+          <a href="#Courses" class="smoothScroll">Courses</a> <a href="#Reviews" class="smoothScroll">Reviews</a> 
+         
+          <a href="#Contact" class="smoothScroll">Contact</a>
+          <a href="javascript:void(0);" class="icon whatsapp" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+           </div>
+      </div>
+      <div class="phone">   <a href="#phone" class="phone"><i class="fa fa-phone"></i> +65 2244 1100</a> </div>
+    </div>
+  </nav>
+</header>
+<section>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/slider-image1.jpg" width="100%" height="auto" alt="fst"/>
+      <div class="container text">
+        <div class="col-md-6 col-sm-12">
+          <h1>Start your journey with our practical courses</h1>
+          <h3>Our online courses are built in partnership with technology leaders and are designed to meet industry demands.</h3>
+          <a href="#courses" class="section-btn btn btn-default smoothScroll">Take a course</a> </div>
+      </div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/slider-image2.jpg" width="100%" height="auto"  alt="sec"/>
+      <div class="container text">
+        <div class="col-md-6 col-sm-12">
+          <h1>Efficient Learning Methods</h1>
+          <h3>Nam eget sapien vel nibh euismod vulputate in vel nibh. Quisque eu ex eu urna venenatis sollicitudin ut at libero. Visit <a rel="nofollow" href="https://www.facebook.com/templatemo">templatemo</a> page.</h3>
+          <a href="#contact" class="section-btn btn btn-default smoothScroll">Let's chat</a> </div>
+      </div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/slider-image3.jpg" width="100%" height="auto"  alt="trd"/>
+      <div class="container text">
+        <div class="col-md-6 col-sm-12">
+          <h1>Start your journey with our practical courses</h1>
+          <h3>Our online courses are built in partnership with technology leaders and are designed to meet industry demands.</h3>
+          <a href="#courses" class="section-btn btn btn-default smoothScroll">Take a course</a> </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div style="text-align:center"> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> </div>
+</section>
+<section>
+  <div class="container">
+    <div class="threebox">
+      <div class="one"><span>01</span>
+        <h3>Trending Courses</h3>
+        <p>Known is free education HTML Bootstrap Template. You can download and use this for your website.</p>
+      </div>
+      <div class="one"> <span>02</span>
+        <h3>Books & Library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
+      <div class="one"><span>03</span>
+        <h3>Certified Teachers</h3>
+        <p>templatemo provides a wide variety of free Bootstrap Templates for you. Please tell your friends about us. Thank you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div id="about">
+      <div class="lftcontent">
+        <h2>Start your journey to a better life with online practical courses</h2>
+        <figure> <span><i class="fa fa-users"></i>
+          <figcaption>
+            <h3>Professional Trainers</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+          </figcaption>
+          </span> </figure>
+        <figure>
+          <figcaption> <span><i class="fa fa-users"></i></span>
+            <h3>Professional Trainers</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <figcaption> <span><i class="fa fa-users"></i></span>
+            <h3>Professional Trainers</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ipsa voluptatibus.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="rightcntnt">
+        <div class="frmdiv">
+          <form>
+<h5>Sign up today</h5>
+<input type="text" class="inpt"  placeholder=" Full name" required="">
+<input type="text" class="inpt" placeholder=" Your password " required="">
+<input type="text" class="inpt" placeholder="Your email address" required="">
+<input type="submit" class="sbmit" value="Get Started">
+
+
+          </form>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+<div class="container">
+  <div id="Teachers"> 
+    <div class="author">
+
+    <h2>Teachers <br><small>Meet Professional Trainers</small></h2>
+
+    <div class="photos"><img src="images/author-image1.jpg"> <h3>Mark Wilson</h3>
+      <span>I love Teaching</span>  <div class="social">
+        <ul class="social-icon">
+          <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+     </ul>
+
+
+      </div> </div>
+    <div class="photos"><img src="images/author-image2.jpg"> <h3>Catherine</h3>
+      <span>Education is the key!</span> <div class="social">
+        <ul class="social-icon">
+          <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+     </ul>
+
+
+      </div> </div>
+    <div class="photos"><img src="images/author-image3.jpg"> <h3>Jessie Ca</h3>
+      <span>I like Online Courses</span><div class="social">
+        <ul class="social-icon">
+          <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+     </ul>
+
+
+      </div> </div>
+    <div class="photos"><img src="images/author-image4.jpg"><h3>Andrew Berti</h3>
+      <span>Learning is fun</span> <div class="social">
+        <ul class="social-icon">
+          <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+     </ul>
+
+
+      </div> </div>
+
+  </div>
+
+
+  </div>
+
+</div>
+
+</section >
+
+
+
+<section id="Courses">
+<div class="container">
+
+  <div id="Courses">
+    <h2>Popular Courses <br><small>Upgrade your skills with newest courses</small></h2>
+    <div class="populer">
+      <section class="regular slider">
+        <div>
+          <img src="images/courses-image1.jpg">
+
+          <div class="courses-detail">
+            <h3><a href="#">Social Media Management</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div>
+       <div class="imgtxt">
+<div  class="roundimg"><img src="images/author-image1.jpg"><span>Mark wilson</span> <div class="abutton"><a href="#">usd 40</a></div></div>
+</div>
+       
+        </div>
+        <div>
+          <img src="images/courses-image2.jpg"><div class="courses-detail">
+            <h3><a href="#">Social Media Management</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div><div class="imgtxt">
+        <div  class="roundimg"><img src="images/author-image2.jpg"><span>Mark wilson</span> <div class="abutton"><a href="#">usd 40</a></div></div>
+        </div>
+        </div>
+        <div>
+          <img src="images/courses-image3.jpg"><div class="courses-detail">
+            <h3><a href="#">Social Media Management</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div><div class="imgtxt">
+        <div  class="roundimg"><img src="images/author-image3.jpg"><span>Mark wilson</span> <div class="abutton"><a href="#">usd 40</a></div></div>
+        </div>
+        </div>
+        <div>
+          <img src="images/courses-image4.jpg"><div class="courses-detail">
+            <h3><a href="#">Social Media Management</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div><div class="imgtxt">
+        <div  class="roundimg"><img src="images/author-image4.jpg"><span>Mark wilson</span> <div class="abutton"><a href="#">usd 40</a></div></div>
+        </div>
+        </div>
+        <div>
+          <img src="images/courses-image5.jpg"><div class="courses-detail">
+            <h3><a href="#">Social Media Management</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div><div class="imgtxt">
+        <div  class="roundimg"><img src="images/author-image2.jpg"><span>Mark wilson</span> <div class="abutton"><a href="#">usd 40</a></div></div>
+        </div>
+        </div>
+        <div>
+          <img src="images/courses-image1.jpg"><div class="courses-detail">
+            <h3><a href="#">Social Media Management</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       </div><div class="imgtxt">
+        <div  class="roundimg"><img src="images/author-image3.jpg"><span>Mark wilson</span> <div class="abutton"><a href="#">usd 40</a></div></div>
+        </div>
+        </div>
+      </section>
+
+    </div>
+
+
+  </div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section id="Reviews">
+  <div class="container">
+  
+    <div id="Reviews">
+      <h2>Popular Courses <br><small>Upgrade your skills with newest courses</small></h2>
+      <div class="populer">
+        <section class="regular slider">
+          <div>
+            <div class="Reviewstxt">
+              <div  class="roundimg roundtxt" ><img src="images/author-image1.jpg">
+                </div><div  class="roundtxt"  ><h4>Barbie</h4>
+                  <span>Art Director</span></div>
+              </div>
+  
+            <div class="courses-detail">
+            
+              <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin quis felis vitae hendrerit.</p>
+              <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+         </div>
+        
+         
+          </div>
+
+
+          <div>
+            <div class="Reviewstxt">
+              <div  class="roundimg roundtxt" ><img src="images/author-image1.jpg">
+                </div><div  class="roundtxt"  ><h4>Barbie</h4>
+                  <span>Art Director</span></div>
+              </div>
+  
+            <div class="courses-detail">
+            
+              <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin quis felis vitae hendrerit.</p>
+              <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+         </div>
+        
+         
+          </div>
+
+
+          <div>
+            <div class="Reviewstxt">
+              <div  class="roundimg roundtxt" ><img src="images/author-image1.jpg">
+                </div><div  class="roundtxt"  ><h4>Barbie</h4>
+                  <span>Art Director</span></div>
+              </div>
+  
+            <div class="courses-detail">
+            
+              <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin quis felis vitae hendrerit.</p>
+              <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+         </div>
+        
+         
+          </div>
+
+
+          
+          <div>
+            <div class="Reviewstxt">
+              <div  class="roundimg roundtxt" ><img src="images/author-image1.jpg">
+                </div><div  class="roundtxt"  ><h4>Barbie</h4>
+                  <span>Art Director</span></div>
+              </div>
+  
+            <div class="courses-detail">
+            
+              <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin quis felis vitae hendrerit.</p>
+              <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+         </div>
+        
+         
+          </div>
+
+
+
+          <div>
+            <div class="Reviewstxt">
+              <div  class="roundimg roundtxt" ><img src="images/author-image1.jpg">
+                </div><div  class="roundtxt"  ><h4>Barbie</h4>
+                  <span>Art Director</span></div>
+              </div>
+  
+            <div class="courses-detail">
+            
+              <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin quis felis vitae hendrerit.</p>
+              <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+         </div>
+        
+         
+          </div>
+  
+          <div>
+            <div class="Reviewstxt">
+              <div  class="roundimg roundtxt" ><img src="images/author-image1.jpg">
+                </div><div  class="roundtxt"  ><h4>Barbie</h4>
+                  <span>Art Director</span></div>
+              </div>
+  
+            <div class="courses-detail">
+            
+              <p>Donec erat libero, blandit vitae arcu eu, lacinia placerat justo. Sed sollicitudin quis felis vitae hendrerit.</p>
+              <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+         </div>
+        
+         
+          </div>
+
+        </section>
+  
+      </div>
+  
+  
+    </div>
+  
+  </div>
+  
+  
+  </section>
+
+
+
+
+  <section id="Contact">
+<div class="container">
+  <div id="Contact"> 
+    <div class="blueouter">
+      <div class="frmlft"><form class="formblue">
+        <div class="headingblue"><h5>Contact us</h5>
+          <p >we love conversation,let us talk!</p></div>
+
+<input type="text" placeholder="Enter full name" required="">
+<input type="text" placeholder="Enter email address" required="">
+<textarea placeholder="tell us about your massage" required=""></textarea>
+<input type="submit"  class="submit" name="send_massage"  value="send massage" required="">
+
+      </form>
+
+
+      </div>
+      <div class="frmphoto"><img src="images/contact-image.jpg"></div>
+
+
+    </div>
+  
+  </div>
+
+</div>
+
+  </section>
+
+
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    </script>
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+     
+      
+    });
+</script>
+</body>
+</html>
