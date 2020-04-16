@@ -1,0 +1,579 @@
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header, footer, section, nav {
+    width: 100%;
+    display: block;
+}
+.container {
+    width: 1150px;
+    margin: 0px auto;
+    display: block;
+    margin: 0px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+nav {
+    border-top: 5px solid #28ca8e;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo {
+    float: left;
+    height: 50px;
+    width: 135px;
+}
+.logo001 {
+    height: 60px;
+    width: 83px;
+}
+.menu {
+    float: left;
+    width: 800px;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #687385;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #28ca8e;
+    color: white;
+}
+.topnav a.active {
+    background-color: #28ca8e;
+    color: white;
+}
+.topnav .icon {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    padding-top: 60px;
+    margin: auto;
+}
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    padding-left: 500px;
+    top: 0px;
+    padding-top: 400px;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+@keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+.threebox {
+    padding: 100px 0px 200px 0px;
+}
+.threebox p {
+    color: #343434;
+}
+.threebox .one {
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    width: 32%;
+    padding: 95px 44px;
+    height: 340px;
+    float: left;
+    margin-right: 10px;
+}
+.one:nth-child(3) {
+    margin-right: 0px;
+}
+/* On smaller screens, decrease text size */
+.threebox span {
+    background: #3f51b5;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.fa-users {
+    float: left;
+    padding-right: 10px;
+    background-color: #34c58c;
+    ;
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+    color: white;
+}
+.fa.fa-phone {
+    background: #34c58c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+#about {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+.lftcontent {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.lftcontent h2 {
+    padding-bottom: 20px;
+}
+.lftcontent p {
+    padding-bottom: 20px;
+    color: #5e5e5e;
+}
+.rightcntnt {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: right;
+}
+.frmdiv {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    background-color: #000000;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+}
+.frmdiv form {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 66px;
+}
+.frmdiv form h5 {
+    color: #ffffff;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+.inpt {
+    display: block;
+    background: transparent;
+    border: none;
+    margin: 0px auto;
+    color: white;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.sbmit {
+    background: white;
+    display: block;
+    background: transparent;
+    border: none;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+    background: white;
+    width: 62%;
+    padding: 15px;
+    border-radius: 100px;
+    color: black;
+}
+.whatsapp {
+    padding: 10px;
+    border-radius: 40px;
+}
+.phone {
+    float: left;
+    padding: 5px 16px;
+    text-decoration: none;
+    color: #6a6c85;
+}
+.phone:hover {
+    background-color: #28ca8e;
+    color: white;
+}
+.author {
+    padding: 0px 0px 100px 0px;
+    overflow: hidden;
+}
+.author h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #5e5e5e;
+}
+.author small {
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: normal;
+}
+#Teachers {
+    background-color: #f9f9f9;
+}
+.btn {
+    background: transparent;
+    padding: 14px;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+#Reviews {
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: normal;
+}
+#Reviews h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #5e5e5e;
+}
+.slider {
+    width: 100%;
+}
+.slick-slide {
+    margin: 0px 20px;
+}
+.slick-slide img {
+    width: 100%;
+}
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+.slick-slide {
+    transition: all ease-in-out .3s;
+}
+.slick-current {
+    opacity: 1;
+}
+#Courses {
+    display: block;
+}
+#Courses h2 {
+    text-align: center;
+    display: block;
+}
+.roundimg span {
+    color: #343434;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+#Courses h2, h3, p, a {
+    color: #343434;
+    text-decoration: none;
+    font-size: 16px;
+}
+.roundimg img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.abutton {
+    background-color: #98e4c8;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    color: white;
+    float: right;
+    width: 70px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.courses-detail p {
+    color: #343434;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.roundimg2 img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.roundtxt {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-right: 20px;
+}
+.abutton a {
+    color: #fff;
+    text-decoration: none;
+}
+.imgtxt {
+    padding-top: 20px;
+}
+.slick-dots li button::before {
+    font-family: 'slick';
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.populer {
+    padding: 30px 0px 50px 0px
+}
+.fa-star {
+    color: #3f51b5;
+    padding-top: 20px;
+    padding-right: 3px;
+}
+#Contact {
+    padding: 100px 0px 100px 0px;
+    background-color: #3f51b5;
+    overflow: hidden;
+}
+.blueouter {
+    width: 100%;
+}
+.frmlft {
+    width: 50%;
+    float: left;
+}
+.frmlft .formblue {
+    width: 545px;
+}
+.frmlft .formblue input, textarea {
+    width: 100%;
+    background: white;
+    display: block;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: none;
+}
+.frmlft .formblue textarea {
+    padding-bottom: 60px;
+}
+.frmphoto {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.frmlft .formblue .submit {
+    width: 172px;
+    border-radius: 55px;
+    color: #5b5b5b;
+}
+.frmlft .formblue .submit:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.frmlft .formblue h5 {
+    color: #ffffff;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.frmlft .formblue p {
+    color: #ffffff;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+.frmphoto img {
+    height: 462px;
+    display: block;
+}
+.headingblue {
+    padding: 25px 0px 25px 0px;
+}
+#Features {
+    padding: 100px 0px;
+}
+.features_info h4 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #343434;
+}
+.features_info img {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.features_info h2 {
+    padding-bottom: 30px;
+    color: #5e5e5e;
+}
+.features_info p {
+    color: #343434;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+.populer h2 {
+    font-size: 2em;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #343434;
+}
+#Testimonials {
+    padding: 100px 0px;
+}
+.courses-detail {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Testimonialstxt {
+    text-align: center;
+}
+.abouttxt h4 {
+    font-size: 2em;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #343434;
+}
+figure {
+    padding-bottom: 20px;
+}
+footer {
+    background-color: black;
+    overflow: hidden;
+    padding: 100px 0px;
+}
+.ftr_child {
+    text-align: center;
+}
+.ftr_child h2 {
+    padding-bottom: 20px;
+}
+.ftr_child h2, ul, p, a {
+    color: white;
+    line-height: 30px;
+}
+.ftrmain {
+    display: flex;
+    justify-content: space-between;
+}
+.ftr_child ul {
+    display: inline;
+    list-style: none;
+}
+.ftr_child .social-icon li {
+    display: inline;
+}
+.ftr_child a {
+    padding: 10px;
+}
+.herotxt {
+    width: 499px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    overflow: hidden;
+}
+.herotxt h1 {
+    float: left;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    text-align: left;
+}
+.herotxt h3 {
+    float: left;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+}
