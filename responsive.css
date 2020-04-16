@@ -1,0 +1,241 @@
+
+@media screen and (max-width: 1100px) {
+.container {
+    width: 100%;
+}
+.logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.menu {
+    float: none;
+    width: 100%;
+}
+.wrapper {
+    width: 100% !important;
+    text-align: center !important;
+}
+nav {
+    position: static;
+}
+.pbtm {
+    padding-bottom: 20px;
+}
+.topnav a:not(:first-child) {
+    display: none;
+}
+.topnav a.icon {
+    float: right;
+    display: block;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    padding-left: 30px;
+    padding-top: 165px;
+}
+.threebox {
+    text-align: center;
+    width: 100%
+}
+.threebox .one {
+    float: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    clear: both;
+    overflow: hidden;
+    width: 40%;
+}
+.lftcontent {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.rightcntnt {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+.phone {
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.author {
+    text-align: center;
+    width: 100%;
+}
+.author .photos {
+    float: none;
+    width: 40%;
+    display: inline-block;
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.threebox {
+    padding: 20px;
+}
+.features_txt {
+    padding: 20px;
+}
+.frmlft {
+    width: 100%;
+    float: none;
+}
+.frmlft .formblue {
+    width: 100%;
+}
+.frmphoto {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+.frmlft .formblue .submit {
+    width: 100%;
+}
+#Contact {
+    padding: 20px;
+}
+.frmphoto img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.ftrmain {
+    display: block;
+    width: 100%;
+}
+.ftr_child {
+    padding-bottom: 20px;
+    clear: both;
+    padding: 30px;
+}
+	figcaption {
+    width: 600px;
+    text-align: left;
+}
+
+#about {
+    padding: 30px 20px;
+}
+#Features {
+    padding: 30px 0px;
+}
+#Testimonials {
+    padding: 30px 0px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+.topnav.responsive {
+    position: relative;
+}
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+.frmdiv {
+    margin: 0px auto;
+}
+}
+@media only screen and (max-width: 800px) {
+.threebox {
+    text-align: center;
+    width: 100%
+}
+.threebox .one {
+    float: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    clear: both;
+    overflow: hidden;
+    width: 90%;
+}
+.lftcontent {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.rightcntnt {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+figcaption {
+    text-align: left;
+}
+.author {
+    text-align: center;
+    width: 100%;
+}
+.author .photos {
+    float: none;
+    width: 90%;
+    display: inline-block;
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.text {
+    font-size: 11px;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+.herotxt {
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    overflow: hidden;
+}
+}
+
+
+
+
+@media  screen and (max-width: 600px) {
+
+figcaption {
+    width: 400px;
+    text-align: left;
+}
+	.text {
+font-size: 11px;
+padding-left: 0px;
+padding-top:80px;
+}
+.frmdiv {
+width: 100%;
+border-radius:0px;
+}
+.herotxt {
+width: 299px;
+background-color: rgba(0, 0, 0, 0.3);
+display: block;
+overflow: hidden;
+}
+	figcaption {
+    width: 300px;
+    text-align: left;
+}
+
+
+}
+
